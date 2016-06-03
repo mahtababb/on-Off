@@ -1,0 +1,44 @@
+.onOff{
+	height: 40px;
+	width: 100px;
+	background: lightgray;
+	border-radius: 42px;
+	padding: 5px 5px;
+	position: absolute;
+
+}
+
+.buttonDiv{
+	height: 25px;
+	width: 25px;
+	border-radius: 50px;
+	background: gray;
+	margin-top: 6px;
+
+
+}
+
+.onOff p{
+	float: right;
+	margin-right: 8px;
+	font-size: 16px;
+	margin-top: 12px;
+
+}
+/*.buttonDiv{
+	height: 25px;
+	width: 25px;
+	border-radius: 50px;
+	background: gray;
+	margin-top: 6px;
+	float: right;
+	
+
+}
+.onOff p{
+	float: left;
+	margin-right: 8px;
+	font-size: 16px;
+	margin-top: 12px;
+
+}*/

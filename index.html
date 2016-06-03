@@ -1,0 +1,41 @@
+<html>
+	<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+		<body>
+			<div class="onOff"><p>off</p>
+				<div class="buttonDiv" onclick="myswitch()"></div>
+			</div>
+           
+<script>
+	var a=true;
+function myswitch(){
+	if(a==true){
+
+		document.getElementsByClassName("onOff")[0].style.background="green";
+		document.getElementsByClassName("buttonDiv")[0].style.float="right";
+		document.getElementsByTagName("p")[0].innerHTML="on";
+		document.getElementsByTagName("p")[0].style.float="left";
+		a=false;
+
+	
+}
+	else
+	{
+	
+		
+		document.getElementsByClassName("onOff")[0].style.background="lightgray";
+		document.getElementsByClassName("buttonDiv")[0].style.float="left";
+		document.getElementsByTagName("p")[0].innerHTML="off";
+		document.getElementsByTagName("p")[0].style.float="right";
+		a=true;
+
+	}
+	}
+	
+	
+</script>
+		
+        </body>
+	
+</html>
